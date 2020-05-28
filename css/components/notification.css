@@ -1,0 +1,47 @@
+.notification {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 8px 16px;
+    border-bottom: 1px solid rgb(235,235,235);
+}
+
+.notification .notification-content {
+    flex-grow: 1;
+    padding: 0 24px;
+}
+
+.notification p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.notification small {
+    color: #999999;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #268BD2;
+}
+
+.notification .notification-actions a {
+    color: white;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+.notification:hover .notification-actions a {
+    color: #999999;
+    margin-left: 16px;
+    font-size: 14px;
+}
